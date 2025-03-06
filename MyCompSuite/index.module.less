@@ -1,0 +1,31 @@
+@color-1: #fff;
+@margin-xss: 4px;
+@padding-sm: 12px;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 734px;
+  padding: @padding-sm 20px;
+}
+
+.containerSection {
+  display: flex;
+  margin-top: 72px;
+}
+
+.imageWrapper {
+  align-self: flex-start;
+  width: 256px;
+  margin-left: @margin-xss;
+  padding: 2px;
+  background-color: @color-1;
+  line-height: 2;
+}
+
+.imageDisplay {
+  flex-shrink: 0;
+  width: 250px;
+  height: 345px;
+  border-radius: 3px;
+}
